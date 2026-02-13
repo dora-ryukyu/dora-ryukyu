@@ -7,9 +7,9 @@ The inference runs entirely on GitHub Actions via ONNX Runtime.
 
 <!-- OTHELLO_START -->
 
-**Score**: Black (You) 5 - 5 White (AI)
+**Score**: Black (You) 7 - 5 White (AI)
 **Turn**: Your Turn (Black)
-**Message**: You played e3. AI played f3.
+**Message**: You played c5. AI played d3.
 
 [🔄 Reset Game](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:reset&body=Trigger+reset)
 
@@ -17,10 +17,10 @@ The inference runs entirely on GitHub Actions via ONNX Runtime.
 | | a | b | c | d | e | f | g | h |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
-| **2** | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
-| **3** | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:c3&body=Just+push+Submit+to+play+c3.) | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:d3&body=Just+push+Submit+to+play+d3.) | ⚫ | ⚪ | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:g3&body=Just+push+Submit+to+play+g3.) | 🟩 |
-| **4** | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:c4&body=Just+push+Submit+to+play+c4.) | ⚪ | ⚪ | ⚪ | 🟩 | 🟩 |
-| **5** | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:c5&body=Just+push+Submit+to+play+c5.) | ⚪ | ⚫ | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:g5&body=Just+push+Submit+to+play+g5.) | 🟩 |
+| **2** | 🟩 | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:d2&body=Just+push+Submit+to+play+d2.) | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:e2&body=Just+push+Submit+to+play+e2.) | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:f2&body=Just+push+Submit+to+play+f2.) | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:g2&body=Just+push+Submit+to+play+g2.) | 🟩 |
+| **3** | 🟩 | 🟩 | 🟩 | ⚪ | ⚪ | ⚪ | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:g3&body=Just+push+Submit+to+play+g3.) | 🟩 |
+| **4** | 🟩 | 🟩 | 🟩 | ⚫ | ⚪ | ⚪ | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:g4&body=Just+push+Submit+to+play+g4.) | 🟩 |
+| **5** | 🟩 | 🟩 | ⚫ | ⚫ | ⚫ | 🟩 | 🟩 | 🟩 |
 | **6** | 🟩 | 🟩 | 🟩 | ⚫ | ⚫ | 🟩 | 🟩 | 🟩 |
 | **7** | 🟩 | 🟩 | ⚫ | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
 | **8** | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
