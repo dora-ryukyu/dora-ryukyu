@@ -25,8 +25,8 @@
       0,
       0,
       0,
-      0,
-      0,
+      1,
+      2,
       0,
       0
     ],
@@ -83,5 +83,5 @@
   ],
   "currentPlayer": 1,
   "gameOver": false,
-  "message": "You played c7. AI played f4."
+  "message": "You played e3. AI played f3."
 }
