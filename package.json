@@ -1,0 +1,15 @@
+{
+  "name": "othello-profile-app",
+  "version": "1.0.0",
+  "description": "Othello AI running on GitHub Actions",
+  "main": "github_action/index.js",
+  "scripts": {
+    "play": "node github_action/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "onnxruntime-node": "^1.16.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
