@@ -1,15 +1,7 @@
 # Othello AI on GitHub Profile
 
-This is an Othello game powered by a CNN model (ONNX) running entirely via GitHub Actions!
-You can play against the AI by clicking the links below.
-
-## How to Play
-
-1. Click on a valid move (marked with `[✨]`).
-2. This will open a new issue with a pre-filled title.
-3. Click "Submit new issue".
-4. Wait for the GitHub Action to run (~30 seconds).
-5. Refresh this page to see the AI's move!
+This is a basic CNN-based Othello AI, roughly trained using the **WTHOR** database provided by the French Othello Federation (FFO).
+The inference runs entirely on GitHub Actions via ONNX Runtime.
 
 ## The Game
 
@@ -21,12 +13,26 @@ You can play against the AI by clicking the links below.
 
 <!-- OTHELLO_END -->
 
-## Setup for your own profile
+<details>
+<summary><strong>📖 How to Play (Click to Expand)</strong></summary>
+
+1. Click on a valid move (marked with `[✨]` or a link on the board).
+2. This will open a new issue with a pre-filled title (e.g., `othello:move:c4`).
+3. Just click **"Submit new issue"**.
+4. Wait ~30 seconds for the GitHub Action to run.
+5. Refresh this page to see the AI's move!
+
+</details>
+
+<details>
+<summary><strong>⚙️ Setup for your own profile</strong></summary>
 
 1. Copy this repository.
 2. Ensure you have `.github/workflows/othello.yml` and `github_action/` folder.
 3. Go to Settings -> Actions -> _General_ -> _Workflow permissions_ and allow "Read and write permissions".
 4. Click "Start New Game" above to initialize the board!
+
+</details>
 
 ---
 
