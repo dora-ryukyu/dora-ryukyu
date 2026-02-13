@@ -13,17 +13,10 @@ The inference runs entirely on GitHub Actions via ONNX Runtime.
 
 [🔄 Reset Game](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:reset&body=Trigger+reset)
 
-
 | | a | b | c | d | e | f | g | h |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
-| **2** | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
-| **3** | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:c3&body=Just+push+Submit+to+play+c3.) | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
-| **4** | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:c4&body=Just+push+Submit+to+play+c4.) | ⚪ | ⚫ | 🟩 | 🟩 | 🟩 |
-| **5** | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:c5&body=Just+push+Submit+to+play+c5.) | ⚪ | ⚫ | 🟩 | 🟩 | 🟩 |
-| **6** | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:c6&body=Just+push+Submit+to+play+c6.) | ⚪ | ⚫ | 🟩 | 🟩 | 🟩 |
-| **7** | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:c7&body=Just+push+Submit+to+play+c7.) | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
-| **8** | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
+(The game board will appear here after the first move or reset)
+
+[� Start New Game](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:reset&body=Trigger+reset)
 
 <!-- OTHELLO_END -->
 
@@ -33,7 +26,7 @@ The inference runs entirely on GitHub Actions via ONNX Runtime.
 1. Click on a valid move (marked with `[✨]` or a link on the board).
 2. This will open a new issue with a pre-filled title (e.g., `othello:move:c4`).
 3. Just click **"Submit new issue"**.
-4. Wait ~30 seconds for the GitHub Action to run.
+4. Wait for the GitHub Action to run.
 5. Refresh this page to see the AI's move!
 
 </details>
@@ -43,8 +36,9 @@ The inference runs entirely on GitHub Actions via ONNX Runtime.
 
 1. Copy this repository.
 2. Ensure you have `.github/workflows/othello.yml` and `github_action/` folder.
-3. Go to Settings -> Actions -> _General_ -> _Workflow permissions_ and allow "Read and write permissions".
-4. Click "Start New Game" above to initialize the board!
+3. Place your ONNX model file in `models/cnn_model.onnx`.
+4. Go to Settings -> Actions -> _General_ -> _Workflow permissions_ and allow "Read and write permissions".
+5. Click "Start New Game" above to initialize the board!
 
 </details>
 
