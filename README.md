@@ -17,7 +17,7 @@ You can play against the AI by clicking the links below.
 
 (The game board will appear here after the first move or reset)
 
-[🔄 Start New Game](https://github.com/Start-Action/issues/new?title=othello:reset&body=Trigger+reset)
+[🔄 Start New Game](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:reset&body=Trigger+reset)
 
 <!-- OTHELLO_END -->
 
