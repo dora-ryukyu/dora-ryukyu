@@ -7,9 +7,23 @@ The inference runs entirely on GitHub Actions via ONNX Runtime.
 
 <!-- OTHELLO_START -->
 
-(The game board will appear here after the first move or reset)
+**Score**: Black (You) 3 - 3 White (AI)
+**Turn**: Your Turn (Black)
+**Message**: You played e6. AI played d6.
 
-[🔄 Start New Game](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:reset&body=Trigger+reset)
+[🔄 Reset Game](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:reset&body=Trigger+reset)
+
+
+| | a | b | c | d | e | f | g | h |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **1** | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
+| **2** | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
+| **3** | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:c3&body=Just+push+Submit+to+play+c3.) | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
+| **4** | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:c4&body=Just+push+Submit+to+play+c4.) | ⚪ | ⚫ | 🟩 | 🟩 | 🟩 |
+| **5** | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:c5&body=Just+push+Submit+to+play+c5.) | ⚪ | ⚫ | 🟩 | 🟩 | 🟩 |
+| **6** | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:c6&body=Just+push+Submit+to+play+c6.) | ⚪ | ⚫ | 🟩 | 🟩 | 🟩 |
+| **7** | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:c7&body=Just+push+Submit+to+play+c7.) | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
+| **8** | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
 
 <!-- OTHELLO_END -->
 
