@@ -15,9 +15,23 @@ You can play against the AI by clicking the links below.
 
 <!-- OTHELLO_START -->
 
-(The game board will appear here after the first move or reset)
+**Score**: Black (You) 2 - 2 White (AI)
+**Turn**: Your Turn (Black)
+**Message**: Game Reset!
 
-[🔄 Start New Game](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:reset&body=Trigger+reset)
+[🔄 Reset Game](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:reset&body=Trigger+reset)
+
+
+| | a | b | c | d | e | f | g | h |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **1** | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
+| **2** | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
+| **3** | 🟩 | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:d3&body=Just+push+Submit+to+play+d3.) | 🟩 | 🟩 | 🟩 | 🟩 |
+| **4** | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:c4&body=Just+push+Submit+to+play+c4.) | ⚪ | ⚫ | 🟩 | 🟩 | 🟩 |
+| **5** | 🟩 | 🟩 | 🟩 | ⚫ | ⚪ | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:f5&body=Just+push+Submit+to+play+f5.) | 🟩 | 🟩 |
+| **6** | 🟩 | 🟩 | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:e6&body=Just+push+Submit+to+play+e6.) | 🟩 | 🟩 | 🟩 |
+| **7** | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
+| **8** | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
 
 <!-- OTHELLO_END -->
 
