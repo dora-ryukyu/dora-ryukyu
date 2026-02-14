@@ -1,7 +1,5 @@
 # 🪄 Othello AI on GitHub Profile
 
-<img src="https://media1.tenor.com/m/mCBo_PD8xU8AAAAd/yae-niizuma-rub.gif" align="right" width="250">
-
 This is a basic CNN-based Othello AI, trained on the **WTHOR** database.
 The inference runs entirely on **GitHub Actions** via ONNX Runtime. 🚀
 
@@ -50,6 +48,9 @@ The inference runs entirely on **GitHub Actions** via ONNX Runtime. 🚀
 ---
 
 ## 🙋‍♂️ About Me
+
+<img src="https://media1.tenor.com/m/mCBo_PD8xU8AAAAd/yae-niizuma-rub.gif" align="right" width="250">
+
 **99.9% Vibe Coder.** ✨
 I leverage the power of LLMs to transform ideas into code at high velocity.
 
