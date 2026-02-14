@@ -64,8 +64,9 @@ I leverage the power of LLMs to transform ideas into code at high velocity.
 From modern stacks to minimalist experiments:
 - **Modern:** [takumi-score-manager](https://github.com/dora-ryukyu/takumi-score-manager) (Next.js, TypeScript)
 - **Minimalist:** [MyApps](https://github.com/dora-ryukyu/MyApps) (Vanilla JS/HTML/CSS)
+- I switch between modern frameworks and lightweight, vanilla solutions depending on the project's scale and purpose.
 
-### ⚡ Automation (The "Lazy" Developer)
+### ⚡ Automation
 - I believe in automating everything that feels like a chore.
 - Developed private scripts for university life (Auto-login to portals, LINE notifications for assignments, etc.). 
 
