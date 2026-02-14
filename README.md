@@ -70,4 +70,4 @@ I believe in automating everything that feels like a chore. Developed private sc
 
 ### Stats
 ![Moe Counter](https://count.getloli.com/get/@dora-ryukyu?theme=rule34)
-<img src="https://media1.tenor.com/m/mCBo_PD8xU8AAAAd/yae-niizuma-rub.gif" width="200">
+<img src="https://media1.tenor.com/m/mCBo_PD8xU8AAAAd/yae-niizuma-rub.gif" width="180">
