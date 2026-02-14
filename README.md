@@ -1,9 +1,9 @@
-# Othello AI on GitHub Profile
+# 🪄 Othello AI on GitHub Profile
 
-This is a basic CNN-based Othello AI, roughly trained using the **WTHOR** database.
-The inference runs entirely on GitHub Actions via ONNX Runtime.
+This is a basic CNN-based Othello AI, trained on the **WTHOR** database.
+The inference runs entirely on **GitHub Actions** via ONNX Runtime. 🚀
 
-## The Game
+## 🎮 The Game
 
 <!-- OTHELLO_START -->
 
@@ -28,54 +28,41 @@ The inference runs entirely on GitHub Actions via ONNX Runtime.
 <!-- OTHELLO_END -->
 
 <details>
-<summary><strong>📖 How to Play (Click to Expand)</strong></summary>
+<summary>📖 <strong>How to Play & Setup</strong> (Click to Expand)</summary>
 
-1. Click on a valid move (marked with `[✨]` or a link on the board).
-2. This will open a new issue with a pre-filled title (e.g., `othello:move:c4`).
-3. Just click **"Submit new issue"**.
-4. Wait for the GitHub Action to run.
-5. Refresh this page to see the AI's move!
+### 🕹️ How to Play
+1. Click a `[✨]`, click **"Submit new issue"**.
+2. Wait for the Action to finish, then refresh the page! ✨
 
-</details>
-
-<details>
-<summary><strong>⚙️ Setup for your own profile</strong></summary>
-
-1. Copy this repository.
-2. Ensure you have `.github/workflows/othello.yml` and `github_action/` folder.
-3. Place your ONNX model file in `models/cnn_model.onnx`.
-4. Go to Settings -> Actions -> _General_ -> _Workflow permissions_ and allow "Read and write permissions".
-5. Click "Start New Game" above to initialize the board!
+### ⚙️ Setup for your own profile
+1. Copy this repo and enable "Read and write permissions" in Actions settings.
+2. Place your model in `models/cnn_model.onnx`.
+3. Start the game via the "Othello Init" workflow!
 
 </details>
 
 ---
 
 ## 🙋‍♂️ About Me
+**99.9% Vibe Coder.** ✨
+I leverage the power of LLMs to transform ideas into code at high velocity.
 
-**99.9% Vibe Coder.** 
-I leverage the power of LLMs to transform ideas into code at high velocity. 
+### 🤖 AI & Machine Learning ![PyTorch](https://img.shields.io/badge/-PyTorch-ee4c2c?style=flat-square&logo=pytorch&logoColor=white) ![ONNX](https://img.shields.io/badge/-ONNX-005ced?style=flat-square&logo=onnx&logoColor=white)
+I'm fascinated by AI/ML implementation. The **Othello AI** above is a prime example—built with **CNN (PyTorch)** and running entirely on **GitHub Actions** via **ONNX Runtime**. I love creating "serverless" AI experiences where the logic lives in the workflow.
 
-### 🤖 AI & Machine Learning
-- I'm fascinated by AI/ML implementation. The **Othello AI** above is a prime example—built with **CNN (PyTorch)** and running entirely on **GitHub Actions** via **ONNX Runtime**. 
-- I love creating "serverless" AI experiences where the logic lives in the workflow.
-
-### 🌐 Web Development
-From modern stacks to minimalist experiments:
+### 🌐 Web Development ![Next.js](https://img.shields.io/badge/-Next.js-black?style=flat-square&logo=nextdotjs) ![TS](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white)
 - **Modern:** [takumi-score-manager](https://github.com/dora-ryukyu/takumi-score-manager) (Next.js, TypeScript)
 - **Minimalist:** [MyApps](https://github.com/dora-ryukyu/MyApps) (Vanilla JS/HTML/CSS)
-- I switch between modern frameworks and lightweight, vanilla solutions depending on the project's scale and purpose.
+I switch between modern frameworks and lightweight, vanilla solutions depending on the project's scale and purpose.
 
-### ⚡ Automation
-- I believe in automating everything that feels like a chore.
-- Developed private scripts for university life (Auto-login to portals, LINE notifications for assignments, etc.). 
+### ⚡ Automation ![Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776ab?style=flat-square&logo=python&logoColor=white)
+I believe in automating everything that feels like a chore. Developed private scripts for university life (Auto-login to portals, LINE notifications for assignments, etc.).
 
-### 🎮 Hobbies & Life
+### 🎮 Hobbies & Life ![Music](https://img.shields.io/badge/-Music-ff69b4?style=flat-square) ![Photo](https://img.shields.io/badge/-Photo-lightgrey?style=flat-square)
 - **Music Games:** CHUNITHM / O.N.G.E.K.I / Project SEKAI / Yumesute / TAKUMI³
 - **Creation:** Music production (from Lo-fi to Dance music) and Photography.
 
 ---
 
 ### Stats
-
 ![Moe Counter](https://count.getloli.com/get/@dora-ryukyu?theme=rule34)
