@@ -51,6 +51,33 @@ The inference runs entirely on GitHub Actions via ONNX Runtime.
 
 ---
 
+## 🙋‍♂️ About Me
+
+**99.9% Vibe Coder.** 
+I leverage the power of LLMs to transform ideas into code at high velocity. 
+
+### 🤖 AI & Machine Learning
+- I'm fascinated by AI/ML implementation. The **Othello AI** above is a prime example—built with **CNN (PyTorch)** and running entirely on **GitHub Actions** via **ONNX Runtime**. 
+- I love creating "serverless" AI experiences where the logic lives in the workflow.
+
+### 🌐 Web Development
+From modern stacks to minimalist experiments:
+- **Modern:** [takumi-score-manager](https://github.com/dora-ryukyu/takumi-score-manager) (Next.js, TypeScript)
+- **Minimalist:** [MyApps](https://github.com/dora-ryukyu/MyApps) (Pure Vanilla JS/HTML/CSS)
+- I choose the tool that fits the "vibe" of the project.
+
+### ⚡ Automation (The "Lazy" Developer)
+- I believe in automating everything that feels like a chore.
+- Developed private scripts for university life (Auto-login to portals, LINE notifications for assignments, etc.). 
+- *Efficiency is my passion.*
+
+### 🎮 Hobbies & Life
+- **Music Games:** CHUNITHM / O.N.G.E.K.I / Project SEKAI / Yumesute / TAKUMI³
+- **Creation:** Music production (from Lo-fi to Dance music) and Photography.
+- **Vibe:** Technology and art are the same thing to me.
+
+---
+
 ### Stats
 
 ![Moe Counter](https://count.getloli.com/get/@dora-ryukyu?theme=rule34)
