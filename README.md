@@ -1,7 +1,13 @@
 # 🪄 Othello AI on GitHub Profile
 
+<img src="https://media1.tenor.com/m/mCBo_PD8xU8AAAAd/yae-niizuma-rub.gif" align="right" width="180">
+
 This is a basic CNN-based Othello AI, trained on the **WTHOR** database.
 The inference runs entirely on **GitHub Actions** via ONNX Runtime. 🚀
+
+> [!IMPORTANT]
+> **AI moves take about 30 seconds.** ⏳  
+> After submitting an issue, please wait a moment and **refresh this page** to see the result!
 
 ## 🎮 The Game
 
@@ -47,18 +53,18 @@ The inference runs entirely on **GitHub Actions** via ONNX Runtime. 🚀
 **99.9% Vibe Coder.** ✨
 I leverage the power of LLMs to transform ideas into code at high velocity.
 
-### 🤖 AI & Machine Learning ![PyTorch](https://img.shields.io/badge/-PyTorch-ee4c2c?style=flat-square&logo=pytorch&logoColor=white) ![ONNX](https://img.shields.io/badge/-ONNX-005ced?style=flat-square&logo=onnx&logoColor=white)
+### 🤖 AI & Machine Learning
 I'm fascinated by AI/ML implementation. The **Othello AI** above is a prime example—built with **CNN (PyTorch)** and running entirely on **GitHub Actions** via **ONNX Runtime**. I love creating "serverless" AI experiences where the logic lives in the workflow.
 
-### 🌐 Web Development ![Next.js](https://img.shields.io/badge/-Next.js-black?style=flat-square&logo=nextdotjs) ![TS](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white)
+### 🌐 Web Development
 - **Modern:** [takumi-score-manager](https://github.com/dora-ryukyu/takumi-score-manager) (Next.js, TypeScript)
 - **Minimalist:** [MyApps](https://github.com/dora-ryukyu/MyApps) (Vanilla JS/HTML/CSS)
 I switch between modern frameworks and lightweight, vanilla solutions depending on the project's scale and purpose.
 
-### ⚡ Automation ![Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776ab?style=flat-square&logo=python&logoColor=white)
+### ⚡ Automation
 I believe in automating everything that feels like a chore. Developed private scripts for university life (Auto-login to portals, LINE notifications for assignments, etc.).
 
-### 🎮 Hobbies & Life ![Music](https://img.shields.io/badge/-Music-ff69b4?style=flat-square) ![Photo](https://img.shields.io/badge/-Photo-lightgrey?style=flat-square)
+### 🎮 Hobbies & Life
 - **Music Games:** CHUNITHM / O.N.G.E.K.I / Project SEKAI / Yumesute / TAKUMI³
 - **Creation:** Music production (from Lo-fi to Dance music) and Photography.
 
