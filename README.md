@@ -1,6 +1,6 @@
 # 🪄 Othello AI on GitHub Profile
 
-<img src="https://media1.tenor.com/m/mCBo_PD8xU8AAAAd/yae-niizuma-rub.gif" align="right" width="180">
+<img src="https://media1.tenor.com/m/mCBo_PD8xU8AAAAd/yae-niizuma-rub.gif" align="right" width="250">
 
 This is a basic CNN-based Othello AI, trained on the **WTHOR** database.
 The inference runs entirely on **GitHub Actions** via ONNX Runtime. 🚀
