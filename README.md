@@ -1,6 +1,6 @@
 # Othello AI on GitHub Profile
 
-This is a basic CNN-based Othello AI, roughly trained using the **WTHOR** database provided by the French Othello Federation (FFO).
+This is a basic CNN-based Othello AI, roughly trained using the **WTHOR** database.
 The inference runs entirely on GitHub Actions via ONNX Runtime.
 
 ## The Game
@@ -79,5 +79,3 @@ From modern stacks to minimalist experiments:
 ### Stats
 
 ![Moe Counter](https://count.getloli.com/get/@dora-ryukyu?theme=rule34)
-
-<!-- You can add your self-introduction here later! -->
