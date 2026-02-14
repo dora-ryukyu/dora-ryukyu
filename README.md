@@ -57,7 +57,7 @@ I'm fascinated by AI/ML implementation. The **Othello AI** above is a prime exam
 ### 🌐 Web Development
 - **Modern:** [takumi-score-manager](https://github.com/dora-ryukyu/takumi-score-manager) (Next.js, TypeScript)
 - **Minimalist:** [MyApps](https://github.com/dora-ryukyu/MyApps) (Vanilla JS/HTML/CSS)
-I switch between modern frameworks and lightweight, vanilla solutions depending on the project's scale and purpose.
+- I switch between modern frameworks and lightweight, vanilla solutions depending on the project's scale and purpose.
 
 ### ⚡ Automation
 I believe in automating everything that feels like a chore. Developed private scripts for university life (Auto-login to portals, LINE notifications for assignments, etc.).
