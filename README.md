@@ -48,9 +48,6 @@ The inference runs entirely on **GitHub Actions** via ONNX Runtime. 🚀
 ---
 
 ## 🙋‍♂️ About Me
-
-<img src="https://media1.tenor.com/m/mCBo_PD8xU8AAAAd/yae-niizuma-rub.gif" align="right" width="250">
-
 **99.9% Vibe Coder.** ✨
 I leverage the power of LLMs to transform ideas into code at high velocity.
 
@@ -72,4 +69,5 @@ I believe in automating everything that feels like a chore. Developed private sc
 ---
 
 ### Stats
+<img src="https://media1.tenor.com/m/mCBo_PD8xU8AAAAd/yae-niizuma-rub.gif" align="right" width="200">
 ![Moe Counter](https://count.getloli.com/get/@dora-ryukyu?theme=rule34)
