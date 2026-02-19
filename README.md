@@ -11,20 +11,20 @@ The inference runs entirely on **GitHub Actions** via ONNX Runtime. 🚀
 
 <!-- OTHELLO_START -->
 
-**Score**: Black (You) 17 - 3 White (AI)
+**Score**: Black (You) 18 - 4 White (AI)
 **Turn**: Your Turn (Black)
-**Message**: You played b7. AI played g4.
+**Message**: You played h4. AI played f1.
 
 [🔄 Reset Game](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:reset&body=Trigger+reset)
 
 
 | | a | b | c | d | e | f | g | h |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🟩 | 🟩 | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:e1&body=Just+push+Submit+to+play+e1.) | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:f1&body=Just+push+Submit+to+play+f1.) | 🟩 | 🟩 |
-| **2** | 🟩 | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:d2&body=Just+push+Submit+to+play+d2.) | ⚪ | ⚫ | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:g2&body=Just+push+Submit+to+play+g2.) | 🟩 |
+| **1** | 🟩 | 🟩 | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:d1&body=Just+push+Submit+to+play+d1.) | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:e1&body=Just+push+Submit+to+play+e1.) | ⚪ | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:g1&body=Just+push+Submit+to+play+g1.) | 🟩 |
+| **2** | 🟩 | 🟩 | 🟩 | 🟩 | ⚪ | ⚪ | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:g2&body=Just+push+Submit+to+play+g2.) | 🟩 |
 | **3** | 🟩 | 🟩 | ⚫ | ⚫ | ⚫ | ⚪ | ⚫ | 🟩 |
-| **4** | 🟩 | 🟩 | ⚫ | ⚫ | ⚫ | ⚫ | ⚪ | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:h4&body=Just+push+Submit+to+play+h4.) |
-| **5** | 🟩 | 🟩 | ⚫ | ⚫ | ⚫ | 🟩 | [✨](https://github.com/dora-ryukyu/dora-ryukyu/issues/new?title=othello:move:g5&body=Just+push+Submit+to+play+g5.) | 🟩 |
+| **4** | 🟩 | 🟩 | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
+| **5** | 🟩 | 🟩 | ⚫ | ⚫ | ⚫ | 🟩 | 🟩 | 🟩 |
 | **6** | 🟩 | 🟩 | ⚫ | ⚫ | ⚫ | 🟩 | 🟩 | 🟩 |
 | **7** | 🟩 | ⚫ | ⚫ | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
 | **8** | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |

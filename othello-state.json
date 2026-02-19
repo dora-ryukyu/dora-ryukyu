@@ -6,7 +6,7 @@
       0,
       0,
       0,
-      0,
+      2,
       0,
       0
     ],
@@ -16,7 +16,7 @@
       0,
       0,
       2,
-      1,
+      2,
       0,
       0
     ],
@@ -37,8 +37,8 @@
       1,
       1,
       1,
-      2,
-      0
+      1,
+      1
     ],
     [
       0,
@@ -83,5 +83,5 @@
   ],
   "currentPlayer": 1,
   "gameOver": false,
-  "message": "You played b7. AI played g4."
+  "message": "You played h4. AI played f1."
 }
