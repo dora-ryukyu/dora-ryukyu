@@ -3,9 +3,9 @@
     [
       0,
       0,
-      0,
-      1,
-      0,
+      2,
+      2,
+      2,
       2,
       0,
       0
@@ -15,8 +15,8 @@
       0,
       0,
       2,
-      2,
-      2,
+      1,
+      1,
       0,
       0
     ],
@@ -25,7 +25,7 @@
       0,
       1,
       1,
-      1,
+      2,
       1,
       1,
       0
@@ -36,7 +36,7 @@
       1,
       1,
       1,
-      1,
+      2,
       1,
       1
     ],
@@ -47,7 +47,7 @@
       1,
       1,
       0,
-      0,
+      2,
       0
     ],
     [
@@ -83,5 +83,5 @@
   ],
   "currentPlayer": 1,
   "gameOver": false,
-  "message": "You played d1. AI played d2."
+  "message": "You played e1. AI played c1. You have no moves. Passing to AI. AI played g5."
 }
