@@ -48,7 +48,7 @@ The inference runs entirely on **GitHub Actions** via ONNX Runtime. 🚀
 ---
 
 ## 🙋‍♂️ About Me
-**99.9% Vibe Coder.** ✨
+**AI-Native Developer.** ✨
 I leverage the power of LLMs to transform ideas into code at high velocity.
 
 ### 🤖 AI & Machine Learning
@@ -59,15 +59,6 @@ I'm fascinated by AI/ML implementation. The **Othello AI** above is a prime exam
 - **Minimalist:** [MyApps](https://github.com/dora-ryukyu/MyApps) (Vanilla JS/HTML/CSS)
 - I switch between modern frameworks and lightweight, vanilla solutions depending on the project's scale and purpose.
 
-### ⚡ Automation
-I believe in automating everything that feels like a chore. Developed private scripts for university life (Auto-login to portals, LINE notifications for assignments, etc.).
-
 ### 🎮 Hobbies & Life
-- **Music Games:** CHUNITHM / O.N.G.E.K.I / Project SEKAI / Yumesute / TAKUMI³
-- **Creation:** Music production (from Lo-fi to Dance music) and Photography.
+Music Games / Music Production / Photography
 
----
-
-### Stats
-![Moe Counter](https://count.getloli.com/get/@dora-ryukyu?theme=rule34)
-<img src="https://media1.tenor.com/m/mCBo_PD8xU8AAAAd/yae-niizuma-rub.gif" width="180">
