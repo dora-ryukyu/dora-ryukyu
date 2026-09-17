@@ -4,10 +4,14 @@ const path = require('path');
 const { BLACK, WHITE, EMPTY, BOARD_SIZE, getValidMoves, getResultingBoard } = require('./game');
 const { createNNAI } = require('./ai');
 const { renderMarkdownBoard } = require('./renderer');
+const { parseCommand } = require('./validate');
 
 const STATE_FILE = 'othello-state.json';
 const MODEL_PATH = path.join(__dirname, '../models/cnn_model.onnx');
 const README_FILE = 'README.md';
+// Written only with an already-validated label; the workflow uses it to build
+// the commit message without ever interpolating the raw issue title.
+const MOVE_LABEL_FILE = '.othello-move';
 
 function initGame() {
     const board = Array(BOARD_SIZE).fill(0).map(() => Array(BOARD_SIZE).fill(EMPTY));
@@ -21,17 +25,6 @@ function initGame() {
         gameOver: false,
         message: 'Game Start!'
     };
-}
-
-function parseMove(moveStr) {
-    // e.g. "c4"
-    if (!moveStr || moveStr.length < 2) return null;
-    const col = moveStr.charCodeAt(0) - 'a'.charCodeAt(0);
-    const row = parseInt(moveStr.substring(1)) - 1;
-    if (col >= 0 && col < BOARD_SIZE && row >= 0 && row < BOARD_SIZE) {
-        return { row, col };
-    }
-    return null;
 }
 
 async function main() {
@@ -51,6 +44,14 @@ async function main() {
         process.exit(1);
     }
 
+    // Issue titles are attacker-controlled, so only the exact allow-listed
+    // commands are accepted. Anything else is ignored without touching state.
+    const command = parseCommand(title);
+    if (command.type === 'invalid') {
+        console.error(`Ignoring issue with unsupported title: ${JSON.stringify(title)}`);
+        return;
+    }
+
     let state;
     if (fs.existsSync(STATE_FILE)) {
         state = JSON.parse(fs.readFileSync(STATE_FILE, 'utf8'));
@@ -59,28 +60,26 @@ async function main() {
     }
 
     // Handle Reset
-    if (title.includes('othello:reset')) {
+    if (command.type === 'reset') {
         state = initGame();
         state.message = "Game Reset!";
-    } 
+    }
     // Handle Move
     // e.g. "othello:move:c4"
-    if (title.includes('othello:move:')) {
-        const movePart = title.split('othello:move:')[1].trim().toLowerCase();
-        const move = parseMove(movePart);
-        
+    if (command.type === 'move') {
+        const { move, moveStr } = command;
+
         // Attempt Human Move
-        if (move && !state.gameOver && state.currentPlayer === BLACK) { // Assuming Human is Black
+        if (!state.gameOver && state.currentPlayer === BLACK) { // Assuming Human is Black
              const valid = getValidMoves(state.board, state.currentPlayer);
              const isValid = valid.some(m => m.row === move.row && m.col === move.col);
-             
+
              if (isValid) {
                  state.board = getResultingBoard(state.board, state.currentPlayer, move.row, move.col);
                  state.currentPlayer = WHITE;
-                 state.message = `You played ${movePart}.`;
+                 state.message = `You played ${moveStr}.`;
              } else {
-                 console.log("Invalid move attempted");
-                 // Should probably not update state, but maybe log it?
+                 console.log(`Invalid move attempted: ${moveStr}`);
              }
         }
     }
@@ -177,6 +176,18 @@ async function main() {
 
     // Save state
     fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2));
+
+    // Emit the validated label for the workflow commit message. The workflow
+    // reads this file instead of interpolating the raw issue title.
+    const label = command.type === 'move' ? command.moveStr : 'reset';
+    fs.writeFileSync(MOVE_LABEL_FILE, `${label}\n`);
 }
 
-main().catch(console.error);
+if (require.main === module) {
+    main().catch((err) => {
+        console.error(err);
+        process.exitCode = 1;
+    });
+}
+
+module.exports = { initGame, main };
