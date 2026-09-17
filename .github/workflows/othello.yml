@@ -9,33 +9,45 @@ permissions:
 
 jobs:
   play:
-    if: startsWith(github.event.issue.title, 'othello:')
+    # Only the repository owner may start a game. Issues opened by anyone else
+    # are skipped entirely, so untrusted issue titles never reach this job.
+    if: >-
+      startsWith(github.event.issue.title, 'othello:') &&
+      github.event.issue.user.login == github.repository_owner
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
 
       - name: Install Dependencies
         run: npm install onnxruntime-node
 
+      - name: Run Tests
+        run: npm test
+
       - name: Run Game
+        env:
+          REPO: ${{ github.repository }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
         run: |
-          node github_action/index.js --repo "${{ github.repository }}" --title "${{ github.event.issue.title }}"
+          node github_action/index.js --repo "$REPO" --title "$ISSUE_TITLE"
 
       - name: Commit & Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md othello-state.json
-          git commit -m "Moves: ${{ github.event.issue.title }}" || echo "No changes to commit"
+          MOVE_LABEL="$(cat .othello-move 2>/dev/null || echo unknown)"
+          git commit -m "Moves: $MOVE_LABEL" || echo "No changes to commit"
           git push
 
       - name: Close Issue
-        run: gh issue close "${{ github.event.issue.number }}" --comment "Move processed!"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: gh issue close "$ISSUE_NUMBER" --comment "Move processed!"
